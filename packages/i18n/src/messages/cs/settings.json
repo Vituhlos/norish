@@ -1,0 +1,568 @@
+{
+  "page": {
+    "title": "Nastavení",
+    "loading": "Načítání...",
+    "ariaLabel": "Záložky nastavení"
+  },
+  "tabs": {
+    "user": "Uživatel",
+    "household": "Domácnost",
+    "caldav": "CalDAV",
+    "admin": "Admin"
+  },
+  "user": {
+    "profile": {
+      "title": "Profil",
+      "nameLabel": "Jméno",
+      "namePlaceholder": "Vaše jméno",
+      "emailLabel": "E-mail",
+      "avatarHint": "Klikněte na avatar pro změnu obrázku",
+      "deleteAvatar": "Smazat profilový obrázek",
+      "saveChanges": "Uložit změny"
+    },
+    "allergies": {
+      "title": "Alergie",
+      "description": "Přidejte své potravinové alergie, abyste dostávali varování při plánování receptů obsahujících alergeny. Tyto informace slouží k varování, když plánovaný recept obsahuje ingredience odpovídající vašim alergiím.",
+      "placeholder": "Pište alergie (např. lepek, ořechy, mléko)...",
+      "saveButton": "Uložit alergie"
+    },
+    "apiKeys": {
+      "title": "API klíče",
+      "description": "API klíče umožňují programový přístup k Norish API. Použijte je pro integrace, zkratky a automatizaci.",
+      "keyNameLabel": "Název klíče (volitelné)",
+      "keyNamePlaceholder": "např. iOS zkratka",
+      "createKey": "Vytvořit klíč",
+      "yourKeys": "Vaše API klíče",
+      "noKeys": "Zatím žádné API klíče. Vytvořte jeden pro začátek.",
+      "tableHeaders": {
+        "name": "NÁZEV",
+        "keyPrefix": "PŘEDPONA KLÍČE",
+        "created": "VYTVOŘENO",
+        "status": "STAV",
+        "actions": "AKCE"
+      },
+      "unnamed": "Nepojmenovaný",
+      "active": "Aktivní",
+      "disabled": "Zakázaný",
+      "disableKey": "Zakázat klíč",
+      "enableKey": "Povolit klíč",
+      "deleteKey": "Smazat klíč",
+      "generatedModal": {
+        "title": "API klíč vygenerován",
+        "warning": "Uložte tento klíč nyní! Nebudete ho moci znovu zobrazit. Ukládáme pouze hash a klíč nelze obnovit.",
+        "hint": "Používejte tento klíč v hlavičce <code>x-api-key</code> při odesílání API požadavků.",
+        "confirmButton": "Uložil jsem ho"
+      },
+      "deleteModal": {
+        "title": "Smazat API klíč",
+        "message": "Opravdu chcete smazat tento API klíč? Všechny aplikace, které ho používají, okamžitě ztratí přístup. Tuto akci nelze vrátit zpět.",
+        "confirmButton": "Smazat klíč"
+      }
+    },
+    "archiveImport": {
+      "title": "Importovat archiv receptů",
+      "description": "Importujte recepty z exportů Mela (.melarecipes), Paprika (.paprikarecipes) nebo Mealie/Tandoor (.zip)"
+    },
+    "siteAuthTokens": {
+      "title": "Tokeny pro ověření webu",
+      "description": "Přidejte hlavičky nebo cookies, které se odesílají při importu receptů z konkrétních webů. Užitečné pro weby vyžadující přihlášení (např. Instagram, Facebook).",
+      "domain": "Doména",
+      "domainPlaceholder": "např. instagram.com",
+      "name": "Název",
+      "namePlaceholder": "např. Cookie nebo Authorization",
+      "value": "Hodnota",
+      "valuePlaceholder": "Hodnota tokenu nebo cookie",
+      "type": "Typ",
+      "typeHeader": "Hlavička",
+      "typeCookie": "Cookie",
+      "addButton": "Přidat token",
+      "noTokens": "Žádné tokeny pro ověření webu nejsou nakonfigurovány.",
+      "tableHeaders": {
+        "domain": "DOMÉNA",
+        "name": "NÁZEV",
+        "type": "TYP",
+        "created": "VYTVOŘENO",
+        "actions": "AKCE"
+      },
+      "deleteModal": {
+        "title": "Smazat token",
+        "message": "Opravdu chcete smazat tento ověřovací token? Import z tohoto webu může přestat fungovat.",
+        "confirmButton": "Smazat token"
+      }
+    },
+    "dangerZone": {
+      "title": "Nebezpečná zóna",
+      "description": "Po smazání účtu nelze akci vrátit zpět. Ujistěte se, že si to přejete.",
+      "deleteButton": "Smazat můj účet",
+      "deleteModal": {
+        "title": "Smazat účet",
+        "permanentWarning": "Tato akce je nevratná!",
+        "dataWarning": "Vaše osobní data včetně nákupního seznamu, zápisů v kalendáři a poznámek budou trvale smazána.",
+        "recipesNote": "Recepty, které jste vytvořili, budou zachovány, ale již nebudou propojeny s vaším účtem.",
+        "adminNote": "Pokud jste administrátorem domácnosti s dalšími členy, musíte nejprve převést práva administrátora.",
+        "confirmButton": "Smazat můj účet"
+      }
+    },
+    "preferences": {
+      "title": "Předvolby",
+      "description": "Přizpůsobte si své zážitky.",
+      "language": {
+        "title": "Jazyk",
+        "description": "Vyberte preferovaný jazyk"
+      },
+      "timers": {
+        "title": "Povolit časovače receptů",
+        "description": "Zobrazit interaktivní časovače v pokynech k receptu"
+      },
+      "conversion": {
+        "title": "Zobrazit tlačítko pro převod ingrediencí",
+        "description": "Zobrazit tlačítko na stránkách receptu pro převod mezi systémy měření"
+      },
+      "ratings": {
+        "title": "Zobrazit hodnocení",
+        "description": "Zobrazit hvězdičková hodnocení na kartách receptů a na stránkách detailu"
+      },
+      "favorites": {
+        "title": "Zobrazit oblíbené",
+        "description": "Zobrazit ikony oblíbených/srdíček na kartách receptů a na stránkách detailu"
+      },
+      "applyError": "Nepodařilo se použít předvolbu"
+    }
+  },
+  "household": {
+    "pageTitle": "Nastavení domácnosti",
+    "info": {
+      "yourRole": "Vaše role",
+      "admin": "Administrátor",
+      "member": "Člen",
+      "members": "Členové",
+      "leaveButton": "Opustit domácnost",
+      "leaveModal": {
+        "title": "Opustit domácnost",
+        "confirmMessage": "Opravdu chcete opustit {name}?",
+        "adminWarning": "Jste administrátor. Před odchodem musíte převést práva administrátora.",
+        "confirmButton": "Opustit domácnost"
+      }
+    },
+    "members": {
+      "title": "Členové",
+      "tableHeaders": {
+        "name": "JMÉNO",
+        "role": "ROLE",
+        "actions": "AKCE"
+      },
+      "you": "Vy",
+      "kickButton": "Vyhodit",
+      "makeAdminButton": "Udělat administrátorem",
+      "kickModal": {
+        "title": "Vyhodit uživatele",
+        "confirmMessage": "Opravdu chcete vyhodit {name} z domácnosti?",
+        "warning": "Ztratí přístup ke všem sdíleným receptům, nákupnímu seznamu a zápisům v kalendáři.",
+        "confirmButton": "Vyhodit uživatele"
+      },
+      "transferModal": {
+        "title": "Převod práv administrátora",
+        "confirmMessage": "Opravdu chcete převést práva administrátora na {name}?",
+        "warning": "Stanete se běžným členem a nebudete již moci vyhazovat uživatele ani spravovat vstupní kódy.",
+        "confirmButton": "Převést administrátora"
+      },
+      "toasts": {
+        "kickFailed": "Vyhození uživatele se nezdařilo",
+        "transferSuccess": "Administrátor přenesen na {name}",
+        "transferFailed": "Přenos administrátora se nezdařil"
+      }
+    },
+    "joinCode": {
+      "title": "Vstupní kód",
+      "shareDescription": "Sdílejte tento kód s ostatními a pozvěte je do své domácnosti.",
+      "expiresIn": "Vyprší za:",
+      "regenerateButton": "Obnovit",
+      "expired": "Vypršel",
+      "noCodeDescription": "Žádný aktivní vstupní kód. Vygenerujte jeden pro pozvání nových členů.",
+      "generateButton": "Vygenerovat vstupní kód"
+    },
+    "create": {
+      "title": "Vytvořit domácnost",
+      "description": "Vytvořte novou domácnost pro sdílení receptů a nákupního seznamu s rodinou nebo přáteli.",
+      "nameLabel": "Název domácnosti",
+      "namePlaceholder": "např. Rodina Novákových",
+      "submitButton": "Vytvořit domácnost"
+    },
+    "join": {
+      "title": "Připojit se k domácnosti",
+      "description": "Zadejte vstupní kód pro připojení k existující domácnosti.",
+      "codeLabel": "Vstupní kód",
+      "codePlaceholder": "8místný kód",
+      "submitButton": "Připojit se k domácnosti"
+    }
+  },
+  "caldav": {
+    "setup": {
+      "title": "Nastavit synchronizaci CalDAV",
+      "description": "Propojte svůj CalDAV kalendář pro automatickou synchronizaci plánů jídel",
+      "gettingStarted": "Začínáme s CalDAV",
+      "providerDescription": "Budete potřebovat CalDAV kompatibilní kalendářovou službu. Mezi oblíbené poskytovatele patří:",
+      "serverUrlLabel": "URL serveru",
+      "serverUrlDescription": "Základní URL vašeho CalDAV serveru (např. https://dav.priklad.cz)",
+      "serverUrlPlaceholder": "https://dav.priklad.cz",
+      "usernameLabel": "Uživatelské jméno",
+      "usernamePlaceholder": "uživatelské jméno",
+      "passwordLabel": "Heslo",
+      "passwordPlaceholder": "Zadejte heslo",
+      "calendarLabel": "Kalendář",
+      "calendarPlaceholder": "Vyberte kalendář",
+      "calendarPlaceholderDisabled": "Nejprve otestujte připojení",
+      "calendarDescription": "Vyberte, se kterým kalendářem synchronizovat plány jídel",
+      "calendarDescriptionDisabled": "Otestujte připojení pro načtení dostupných kalendářů",
+      "timeFormat": "Formát: HH:MM-HH:MM",
+      "timeFormatError": "Formát musí být HH:MM-HH:MM",
+      "breakfastTime": "Čas snídaně",
+      "lunchTime": "Čas oběda",
+      "dinnerTime": "Čas večeře",
+      "snackTime": "Čas svačiny",
+      "testConnection": "Otestovat připojení",
+      "saveConfiguration": "Uložit konfiguraci"
+    },
+    "config": {
+      "title": "Konfigurace CalDAV",
+      "editTitle": "Upravit konfiguraci CalDAV",
+      "serverUrl": "URL serveru",
+      "enabled": "Povoleno",
+      "disabled": "Zakázáno",
+      "editButton": "Upravit",
+      "deleteButton": "Smazat",
+      "saveChanges": "Uložit změny",
+      "advancedSettings": "Pokročilá nastavení",
+      "timezone": "Časové pásmo: {timezone}",
+      "connectionStatus": {
+        "connected": "Připojeno",
+        "checking": "Kontrolování...",
+        "disconnected": "Odpojeno",
+        "unknown": "Neznámý"
+      }
+    },
+    "deleteModal": {
+      "title": "Smazat konfiguraci CalDAV",
+      "confirmMessage": "Opravdu chcete smazat konfiguraci CalDAV?",
+      "deleteEventsLabel": "Smazat synchronizované události",
+      "deleteEventsDescription": "Odebrat všechny události vytvořené ve vašem CalDAV kalendáři",
+      "confirmButton": "Smazat"
+    },
+    "syncStatus": {
+      "title": "Stav synchronizace",
+      "syncNow": "Synchronizovat nyní",
+      "clearFilter": "Zrušit filtr",
+      "clickToFilter": "Klikněte na odznak pro filtrování",
+      "showingItems": "Zobrazení {start}–{end} z {total} položek",
+      "tableHeaders": {
+        "item": "POLOŽKA",
+        "type": "TYP",
+        "date": "DATUM",
+        "meal": "JÍDLO",
+        "status": "STAV",
+        "lastSync": "POSLEDNÍ SYNC",
+        "error": "CHYBA"
+      },
+      "statuses": {
+        "synced": "Synchronizováno",
+        "pending": "Čekající",
+        "failed": "Selhalo",
+        "removed": "Odebráno"
+      },
+      "emptyFiltered": "Žádné položky se stavem {status}",
+      "emptyDefault": "Žádné záznamy synchronizace",
+      "errorDetails": "Podrobnosti chyby"
+    }
+  },
+  "admin": {
+    "general": {
+      "title": "Obecné",
+      "allowRegistration": "Povolit registraci nových uživatelů",
+      "registrationDescription": "Pokud je zakázáno, mohou se přihlásit pouze stávající uživatelé",
+      "locales": "Povolené jazyky",
+      "localesDescription": "Vyberte, ze kterých jazyků si uživatelé mohou vybírat",
+      "defaultLocale": "Výchozí jazyk",
+      "defaultLocaleDescription": "Jazyk používaný pro nové uživatele a jako záloha",
+      "saveLocales": "Uložit jazyková nastavení",
+      "localesSaved": "Jazyková nastavení uložena",
+      "localesError": "Nepodařilo se uložit jazyková nastavení",
+      "atLeastOneLocale": "Musí být povolen alespoň jeden jazyk"
+    },
+    "registration": {
+      "title": "Registrace",
+      "allowRegistration": "Povolit registraci nových uživatelů",
+      "description": "Pokud je zakázáno, mohou se přihlásit pouze stávající uživatelé"
+    },
+    "permissions": {
+      "title": "Oprávnění receptů",
+      "description": "Kontrolujte, kdo může zobrazovat, upravovat a mazat recepty. Správci serveru mají vždy plný přístup.",
+      "viewRecipes": "Zobrazit recepty",
+      "viewDescription": "Kdo může vidět recepty v přehledu",
+      "editRecipes": "Upravit recepty",
+      "editDescription": "Kdo může měnit podrobnosti receptu",
+      "deleteRecipes": "Smazat recepty",
+      "deleteDescription": "Kdo může odebírat recepty",
+      "levels": {
+        "everyone": "Všichni",
+        "everyoneDescription": "Všichni ověření uživatelé",
+        "household": "Domácnost",
+        "householdDescription": "Vlastník receptu a členové jeho domácnosti",
+        "owner": "Pouze vlastník",
+        "ownerDescription": "Pouze vlastník receptu"
+      },
+      "note": "Poznámka: Nákupní seznam a položky kalendáře automaticky dodržují pravidla domácnosti – členové domácnosti mohou vždy upravovat a mazat položky patřící komukoli ve stejné domácnosti."
+    },
+    "system": {
+      "title": "Systémová nastavení",
+      "cleanup": {
+        "title": "Plánovač čištění",
+        "label": "Měsíce čištění",
+        "description": "Smazat plánovaná jídla starší než zadaný počet měsíců"
+      },
+      "server": {
+        "title": "Správa serveru",
+        "restartLabel": "Restartovat server",
+        "restartDescription": "Použít změny konfigurace, které vyžadují restart",
+        "restartButton": "Restartovat server"
+      }
+    },
+    "restart": {
+      "title": "Restartovat server",
+      "confirmMessage": "Opravdu chcete restartovat server?",
+      "importantTitle": "Důležité:",
+      "warning1": "Všechna aktivní připojení budou přerušena",
+      "warning2": "Server bude na několik sekund nedostupný",
+      "warning3": "Ujistěte se, že vaše nasazení má nakonfigurováno <code>restart: always</code>, jinak se server automaticky nespustí",
+      "confirmButton": "Restartovat nyní"
+    },
+    "authProviders": {
+      "title": "Poskytovatelé ověřování",
+      "requiresRestart": "Vyžaduje restart",
+      "description": "Konfigurujte metody ověřování. Změny vyžadují restart serveru.",
+      "passwordAuth": {
+        "title": "E-mail a heslo",
+        "description": "Umožnit uživatelům přihlášení pomocí e-mailu a hesla"
+      },
+      "oauthDescription": "Konfigurujte OAuth poskytovatele pro SSO ověřování.",
+      "oidc": {
+        "title": "Poskytovatel OIDC",
+        "subtitle": "Obecné OpenID Connect",
+        "fields": {
+          "name": "Název poskytovatele",
+          "namePlaceholder": "např. Authentik, Keycloak",
+          "issuer": "URL vydavatele",
+          "issuerPlaceholder": "https://vas-idp.cz",
+          "clientId": "ID klienta",
+          "clientSecret": "Tajný klíč klienta",
+          "wellknown": "Well-known URL (volitelné)",
+          "wellknownPlaceholder": "Automaticky odvozeno z vydavatele, pokud není nastaveno"
+        },
+        "claimMapping": {
+          "title": "Mapování nároků",
+          "description": "Automaticky přiřazujte role a domácnosti na základě OIDC nároků. Uživatelé s administrátorskou skupinou získají oprávnění správce serveru. Uživatelé se skupinou domácnosti jsou automaticky přidáni do příslušné domácnosti.",
+          "securityWarning": "Varování: Povolení mapování nároků umožní vašemu poskytovateli identity kontrolovat oprávnění správce a členství v domácnosti. Tuto funkci povolte pouze tehdy, pokud plně důvěřujete svému poskytovateli OIDC a správně nakonfigurujete skupinové nároky.",
+          "scopes": "Další rozsahy",
+          "scopesPlaceholder": "groups, roles",
+          "scopesDescription": "Čárkami oddělený seznam dalších OAuth rozsahů k vyžádání (např. groups pro Keycloak)",
+          "groupsClaim": "Nárok skupin",
+          "groupsClaimDescription": "Název nároku obsahujícího skupiny/role uživatele",
+          "adminGroup": "Skupina administrátorů",
+          "adminGroupDescription": "Název skupiny udělující roli správce serveru (bez ohledu na velikost písmen)",
+          "householdPrefix": "Předpona domácnosti",
+          "householdPrefixDescription": "Předpona pro názvy skupin domácnosti (např. norish_household_family => domácnost 'family')"
+        }
+      },
+      "github": {
+        "title": "GitHub",
+        "subtitle": "GitHub OAuth",
+        "fields": {
+          "clientId": "ID klienta",
+          "clientSecret": "Tajný klíč klienta"
+        }
+      },
+      "google": {
+        "title": "Google",
+        "subtitle": "Google OAuth",
+        "fields": {
+          "clientId": "ID klienta",
+          "clientIdPlaceholder": "*.apps.googleusercontent.com",
+          "clientSecret": "Tajný klíč klienta"
+        }
+      },
+      "form": {
+        "testSuccess": "Připojení úspěšné",
+        "removeTitle": "Odebrat {provider}",
+        "removeConfirm": "Opravdu chcete odebrat tohoto poskytovatele?"
+      },
+      "envBadge": {
+        "db": "Spravováno databází",
+        "env": "Spravováno env"
+      }
+    },
+    "contentDetection": {
+      "title": "Detekce obsahu",
+      "description": "Konfigurujte způsob detekce a parsování receptů z webových stránek.",
+      "contentIndicators": {
+        "title": "Indikátory obsahu",
+        "subtitle": "Klíčová slova identifikující stránky s recepty",
+        "description": "Indikátory schématu detekují strukturovaná data receptů (JSON-LD, mikrodata). Indikátory obsahu jsou klíčová slova naznačující, že stránka obsahuje recept.",
+        "timersEnabled": {
+          "title": "Povolit časovače receptů",
+          "description": "Detekovat a zobrazovat interaktivní časovače v receptech"
+        }
+      },
+      "units": {
+        "title": "Měrné jednotky",
+        "subtitle": "Definice měrných jednotek pro parsování",
+        "description": "Definujte měrné jednotky s jejich zkrátkou formou, množným číslem a alternativními pravopisy. Používá se při parsování množství ingrediencí."
+      },
+      "recurrence": {
+        "title": "Vzory opakování",
+        "subtitle": "Přirozené jazykové vzory pro opakující se položky",
+        "description": "Definujte lokálně specifické vzory pro parsování pravidel opakování z přirozeného jazyka (např. 'každý týden', 'ob den')."
+      },
+      "timerKeywords": {
+        "title": "Klíčová slova časovačů",
+        "subtitle": "Klíčová slova časových jednotek pro detekci časovačů",
+        "description": "Konfigurujte klíčová slova používaná k detekci časovačů v pokynech k receptu. Podporuje více jazyků.",
+        "enableToggle": "Povolit detekci časovačů",
+        "hoursLabel": "Klíčová slova pro hodiny",
+        "hoursPlaceholder": "hodina, hodiny, hod, h",
+        "hoursHelp": "Klíčová slova pro hodiny (např. hour, stunde, heure, uur)",
+        "minutesLabel": "Klíčová slova pro minuty",
+        "minutesPlaceholder": "minuta, minuty, min",
+        "minutesHelp": "Klíčová slova pro minuty (např. minute, minuten, minuut)",
+        "secondsLabel": "Klíčová slova pro sekundy",
+        "secondsPlaceholder": "sekunda, sekundy, sek, s",
+        "secondsHelp": "Klíčová slova pro sekundy (např. second, sekunde, seconde)",
+        "unsavedChanges": "Neuložené změny"
+      }
+    },
+    "aiProcessing": {
+      "title": "AI a zpracování",
+      "description": "Konfigurujte funkce s podporou AI pro extrakci receptů a zpracování videí.",
+      "aiConfig": {
+        "title": "Konfigurace AI",
+        "subtitle": "Parsování a extrakce receptů"
+      },
+      "video": {
+        "title": "Zpracování videí",
+        "subtitle": "Extrakce videí ze sociálních médií a přepis"
+      },
+      "prompts": {
+        "title": "Prompty",
+        "subtitle": "Přizpůsobte pokyny AI pro zpracování receptů"
+      },
+      "bulkCategorization": {
+        "title": "Hromadná kategorizace",
+        "subtitle": "Kategorizujte nekategorizované recepty pomocí AI",
+        "description": "Zařaďte všechny nekategorizované recepty do fronty pro detekci kategorií pomocí AI. Kategorie zahrnují Snídaně, Oběd, Večeři a Svačinu.",
+        "button": "Kategorizovat všechny recepty",
+        "queued": "{count, plural, =0 {Žádné recepty ke kategorizaci} one {# recept zařazen do fronty} few {# recepty zařazeny do fronty} other {# receptů zařazeno do fronty}}",
+        "success": "Kategorizace zahájena",
+        "error": "Nepodařilo se zahájit kategorizaci"
+      }
+    },
+    "aiConfig": {
+      "enableAI": "Povolit funkce AI",
+      "enableAIDescription": "Použít AI pro extrakci receptů z nestrukturovaného obsahu",
+      "configureWarning": "Pro povolení funkcí AI nakonfigurujte níže nastavení poskytovatele AI.",
+      "provider": "Poskytovatel AI",
+      "providers": {
+        "openai": "OpenAI",
+        "azure": "Azure OpenAI",
+        "anthropic": "Anthropic",
+        "google": "Google AI",
+        "mistral": "Mistral AI",
+        "deepseek": "DeepSeek",
+        "perplexity": "Perplexity",
+        "groq": "Groq",
+        "ollama": "Ollama (lokální)",
+        "lmStudio": "LM Studio (lokální)",
+        "genericOpenai": "Obecné OpenAI-kompatibilní"
+      },
+      "endpointUrl": "URL koncového bodu",
+      "azureEndpoint": "URL zdroje Azure (volitelné)",
+      "azureEndpointDescription": "Vlastní koncový bod Azure OpenAI. Nechte prázdné pro výchozí.",
+      "model": "Model",
+      "visionModel": "Model pro vision (volitelné)",
+      "visionModelDescription": "Volitelné: Použijte jiný model pro úlohy s obrázky/vizí. Nechte prázdné pro použití výše uvedeného modelu.",
+      "apiKey": "API klíč",
+      "apiKeyPlaceholder": "Zadejte API klíč",
+      "temperature": "Teplota: {value}",
+      "temperatureHint": "Nižší = více zaměřený, Vyšší = více kreativní",
+      "maxTokens": "Maximální počet tokenů",
+      "autoTagAllergies": "Automaticky detekovat alergické štítky",
+      "autoTagAllergiesDescription": "Automaticky přidávat alergicky relevantní štítky při importu receptů",
+      "alwaysUseAI": "Vždy používat AI import",
+      "alwaysUseAIDescription": "Přeskočit strukturované parsery a extrahovat recepty pouze pomocí AI",
+      "autoTaggingMode": "Režim automatického označování",
+      "autoTaggingModeDescription": "Automaticky přiřazovat štítky/klíčová slova importovaným receptům pomocí AI",
+      "autoTaggingModes": {
+        "disabled": "Zakázáno",
+        "predefined": "Pouze předdefinované štítky",
+        "predefinedDb": "Předdefinované + existující štítky",
+        "freeform": "AI může vytvářet nové štítky"
+      },
+      "connectionSuccess": "Připojení úspěšné",
+      "testConnection": "Otestovat připojení",
+      "vision": "vision"
+    },
+    "videoConfig": {
+      "enableVideo": "Povolit parsování videí",
+      "enableVideoDescription": "Extrahovat recepty z TikToku, Instagramu, YouTube Shorts nebo Facebooku",
+      "configureWarning": "Pro povolení zpracování videí nakonfigurujte níže poskytovatele přepisu.",
+      "aiDisabledWarning": "Před zapnutím zpracování videí povolte konfiguraci AI.",
+      "maxLength": "Maximální délka videa (sekundy)",
+      "maxLengthDescription": "Delší videa trvají déle a potřebují více zdrojů",
+      "maxFileSize": "Maximální velikost souboru videa",
+      "maxFileSizeDescription": "Maximální velikost stažených souborů videí",
+      "ytDlpVersion": "Verze yt-dlp",
+      "ytDlpVersionDescription": "Verze yt-dlp pro stahování videí",
+      "transcription": "Přepis",
+      "transcriptionDescription": "Převést zvuk z videa na text pro extrakci receptu",
+      "transcriptionProvider": "Poskytovatel přepisu",
+      "transcriptionProviderDescription": "Pouze OpenAI a OpenAI-kompatibilní koncové body podporují přepis Whisper",
+      "transcriptionProviders": {
+        "disabled": "Zakázáno",
+        "openai": "OpenAI Whisper",
+        "groq": "Groq Whisper",
+        "azure": "Azure OpenAI Whisper",
+        "ollama": "Ollama",
+        "genericOpenai": "Obecné OpenAI-kompatibilní"
+      },
+      "transcriptionEndpoint": "URL koncového bodu",
+      "transcriptionEndpointDescription": "OpenAI-kompatibilní koncový bod s podporou Whisper, nebo Ollama koncový bod",
+      "transcriptionModel": "Model",
+      "transcriptionModelDescription": "Model Whisper pro přepis",
+      "transcriptionModelPlaceholder": "Vyberte nebo zadejte název modelu",
+      "transcriptionApiKey": "API klíč",
+      "transcriptionApiKeyDescription": "Záložně použije API klíč z konfigurace AI, pokud není nastaven",
+      "transcriptionApiKeyPlaceholder": "Nechte prázdné pro použití klíče AI konfigurace",
+      "transcriptionApiKeyOptional": "API klíč (volitelné)",
+      "transcriptionApiKeyOptionalDescription": "Většina lokálních serverů Whisper nevyžaduje API klíč",
+      "transcriptionApiKeyOptionalPlaceholder": "Nechte prázdné pro lokální servery"
+    },
+    "promptsConfig": {
+      "recipeExtraction": "Prompt pro extrakci receptu",
+      "recipeExtractionDescription": "Tento prompt se používá při extrahování dat receptu z webových stránek nebo přepisů videí.",
+      "recipeExtractionPlaceholder": "Zadejte prompt pro extrakci receptu...",
+      "unitConversion": "Prompt pro převod jednotek",
+      "unitConversionDescription": "Tento prompt se používá při převodu měr receptu mezi metrickým a americkým systémem. Dostupné proměnné: sourceSystem, targetSystem, units",
+      "unitConversionPlaceholder": "Zadejte prompt pro převod jednotek...",
+      "nutritionEstimation": "Prompt pro odhad výživových hodnot",
+      "nutritionEstimationDescription": "Tento prompt se používá při odhadování výživových informací pro recept. Dostupné proměnné: recipeName, servings, ingredients",
+      "nutritionEstimationPlaceholder": "Zadejte prompt pro odhad výživových hodnot...",
+      "autoTagging": "Prompt pro automatické označování",
+      "autoTaggingDescription": "Tento prompt se používá ke generování štítků pro importované recepty. Definujte pravidla označování a seznam předdefinovaných štítků.",
+      "autoTaggingPlaceholder": "Zadejte prompt pro automatické označování..."
+    },
+    "unsavedChanges": "Neuložené změny",
+    "jsonEditor": {
+      "placeholder": "Zadejte konfiguraci JSON...",
+      "invalidJson": "Neplatný formát JSON",
+      "failedToSave": "Uložení selhalo",
+      "failedToRestore": "Obnovení výchozích hodnot selhalo"
+    }
+  }
+}

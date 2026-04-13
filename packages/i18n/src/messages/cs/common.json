@@ -1,0 +1,215 @@
+{
+  "actions": {
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "delete": "Smazat",
+    "duplicate": "Duplikovat",
+    "edit": "Upravit",
+    "create": "Vytvořit",
+    "add": "Přidat",
+    "remove": "Odebrat",
+    "close": "Zavřít",
+    "apply": "Použít",
+    "reset": "Resetovat",
+    "clear": "Vymazat",
+    "confirm": "Potvrdit",
+    "back": "Zpět",
+    "next": "Další",
+    "done": "Hotovo",
+    "retry": "Zkusit znovu",
+    "submit": "Odeslat",
+    "search": "Hledat",
+    "filter": "Filtrovat",
+    "sort": "Seřadit",
+    "import": "Importovat",
+    "aiImport": "AI import",
+    "importWithAI": "Importovat s AI",
+    "goHome": "Na hlavní stránku",
+    "test": "Otestovat",
+    "format": "Formátovat",
+    "restoreDefaults": "Obnovit výchozí",
+    "saveChanges": "Uložit změny",
+    "revealSecret": "Zobrazit tajný klíč",
+    "hideSecret": "Skrýt tajný klíč",
+    "enterNewValue": "Zadejte novou hodnotu",
+    "cancelEditing": "Zrušit úpravy"
+  },
+  "status": {
+    "loading": "Načítání...",
+    "saving": "Ukládání...",
+    "deleting": "Mazání...",
+    "error": "Chyba",
+    "success": "Úspěch",
+    "noResults": "Žádné výsledky",
+    "changing": "Změna…"
+  },
+  "filters": {
+    "title": "Filtry",
+    "search": "Hledat",
+    "sort": "Seřadit",
+    "mode": "Režim",
+    "modeAll": "Vše",
+    "modeAny": "Libovolné",
+    "tags": "Štítky",
+    "searchTags": "Hledat štítky",
+    "favoritesAndRating": "Oblíbené a hodnocení",
+    "favorites": "Oblíbené",
+    "cookingTime": "Čas vaření",
+    "cookingTimeUnder15": "<15 min",
+    "cookingTimeUnder30": "<30 min",
+    "cookingTimeUnder60": "<60 min",
+    "cookingTimeUnder120": "<120 min",
+    "categories": "Kategorie",
+    "category": {
+      "breakfast": "Snídaně",
+      "lunch": "Oběd",
+      "dinner": "Večeře",
+      "snack": "Svačina"
+    },
+    "sortByTitle": "Název",
+    "sortByDate": "Datum",
+    "clearFilters": "Vymazat filtry"
+  },
+  "time": {
+    "minutes": "min",
+    "hours": "hod"
+  },
+  "validation": {
+    "required": "Toto pole je povinné",
+    "invalidUrl": "Zadejte prosím platnou URL adresu"
+  },
+  "errors": {
+    "operationFailed": "Operace selhala",
+    "nameCannotBeEmpty": "Název nesmí být prázdný",
+    "technicalDetails": "Něco se pokazilo. Technické podrobnosti najdete v konzoli prohlížeče."
+  },
+  "slots": {
+    "breakfast": "Snídaně",
+    "lunch": "Oběd",
+    "dinner": "Večeře",
+    "snack": "Svačina",
+    "chooseSlot": "Vyberte čas"
+  },
+  "connection": {
+    "connecting": "Připojování k Norish...",
+    "syncing": "Synchronizace, čekejte prosím...",
+    "checkInternet": "Zkontrolujte prosím své internetové připojení",
+    "gettingUpdates": "Chvíli počkejte, načítáme nejnovější aktualizace"
+  },
+  "language": {
+    "title": "Jazyk"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Stránka nenalezena",
+    "message": "Jejda! Nora nenašla, co hledáte.\nStránka mohla být přesunuta nebo neexistuje."
+  },
+  "import": {
+    "url": {
+      "title": "Importovat recept",
+      "label": "URL receptu",
+      "placeholder": "https://priklad.cz/vas-recept",
+      "failed": "Import receptu se nezdařil",
+      "failedWithAI": "Import receptu s AI se nezdařil"
+    },
+    "paste": {
+      "title": "Importovat vložením",
+      "label": "Text receptu nebo JSON-LD",
+      "placeholder": "Vložte recept (volný text) nebo JSON-LD...",
+      "characters": "{count} / {max} znaků",
+      "tooLarge": "Vložený text je příliš velký",
+      "maxCharacters": "Maximálně {max} znaků",
+      "importing": "Importování receptu...",
+      "importingWithAI": "Importování receptu s AI...",
+      "inProgress": "Import probíhá, čekejte prosím...",
+      "failed": "Import se nezdařil"
+    },
+    "image": {
+      "title": "Importovat z obrázku",
+      "dropzone": "Přetáhněte obrázky sem nebo klikněte pro výběr",
+      "paste": "pro vložení",
+      "formats": "Podporuje JPG, PNG, WebP. Max 10 MB na soubor.",
+      "invalidType": "Neplatný typ souboru",
+      "notSupported": "{name} není podporovaný formát obrázku",
+      "tooLarge": "Soubor je příliš velký",
+      "exceeds": "{name} překračuje limit 10 MB",
+      "tooMany": "Příliš mnoho souborů",
+      "maxFiles": "Maximálně {max} souborů",
+      "importing": "Importování receptu z obrázků...",
+      "analyzing": "Analyzování obrázků, čekejte prosím...",
+      "failed": "Import se nezdařil",
+      "selectedCount": "{count} obrázků vybráno – budou spojeny do jednoho receptu",
+      "library": "Knihovna",
+      "takePhoto": "Vyfotit",
+      "counter": "{count} / {max} fotografií",
+      "importFromCount": "Importovat z {count, plural, one {# fotografie} few {# fotografií} other {# fotografií}}"
+    },
+    "menu": {
+      "description": "Importujte z URL, naskenujte fotografii nebo začněte od začátku."
+    }
+  },
+  "formatting": {
+    "title": "Tipy pro formátování",
+    "heading": "Začněte řádek znakem <strong>#</strong> pro nadpis",
+    "bold": "Obalte text <strong>**dvojitými hvězdičkami**</strong> pro tučné písmo",
+    "recipeLink": "Napište <strong>/název receptu</strong> pro odkaz na jiný recept",
+    "helpAriaLabel": "Nápověda pro formátování"
+  },
+  "tagInput": {
+    "placeholder": "Pište štítky oddělené mezerami..."
+  },
+  "recurrence": {
+    "title": "Opakování",
+    "frequency": "Frekvence",
+    "interval": "Interval",
+    "onDay": "Ve den",
+    "daily": "Denně",
+    "weekly": "Týdně",
+    "monthly": "Měsíčně",
+    "day": "den",
+    "days": "dní",
+    "week": "týden",
+    "weeks": "týdnů",
+    "month": "měsíc",
+    "months": "měsíců",
+    "next": "Příště:",
+    "every": "Každý",
+    "everyOther": "Každý druhý",
+    "on": "v",
+    "today": "dnes",
+    "tomorrow": "zítra",
+    "weekdays": {
+      "sun": "Ne",
+      "mon": "Po",
+      "tue": "Út",
+      "wed": "St",
+      "thu": "Čt",
+      "fri": "Pá",
+      "sat": "So"
+    },
+    "weekdaysFull": {
+      "0": "Neděle",
+      "1": "Pondělí",
+      "2": "Úterý",
+      "3": "Středa",
+      "4": "Čtvrtek",
+      "5": "Pátek",
+      "6": "Sobota"
+    }
+  },
+  "badges": {
+    "new": "Nové"
+  },
+  "timer": {
+    "done": "Hotovo",
+    "done_action": "Hotovo",
+    "one": "Časovač",
+    "other": "Časovače",
+    "label_one": "1 časovač",
+    "label_other": "{count} časovačů",
+    "notification_title": "Časovač dokončen",
+    "notification_body": "{label} je hotovo!",
+    "notifications_disabled": "Oznámení jsou zakázána",
+    "notifications_disabled_hint": "Povolte oznámení v nastavení prohlížeče, abyste dostávali upozornění, když časovače doběhnou na pozadí."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "page": {
+    "title": "Kalendář"
+  },
+  "mobile": {
+    "today": "Dnes",
+    "scrollToToday": "Přejít na dnes"
+  },
+  "editNote": {
+    "title": "Upravit poznámku",
+    "noteLabel": "Poznámka",
+    "notePlaceholder": "Zadejte poznámku...",
+    "date": "Datum",
+    "slot": "Čas"
+  },
+  "navigation": {
+    "previousMonth": "Předchozí měsíc",
+    "nextMonth": "Další měsíc",
+    "prev": "Předchozí",
+    "next": "Další"
+  },
+  "weekdays": {
+    "mon": "Po",
+    "tue": "Út",
+    "wed": "St",
+    "thu": "Čt",
+    "fri": "Pá",
+    "sat": "So",
+    "sun": "Ne"
+  },
+  "timeline": {
+    "noItems": "Žádné naplánované položky",
+    "goToRecipe": "Přejít na recept",
+    "addItem": "Přidat položku",
+    "untitled": "Bez názvu",
+    "serving": "porce",
+    "servings": "porcí",
+    "noImage": "Žádný obrázek",
+    "recipe": "Recept",
+    "note": "Poznámka"
+  },
+  "editPlannedRecipe": {
+    "title": "Upravit naplánovaný recept",
+    "date": "Datum",
+    "slot": "Čas"
+  },
+  "panel": {
+    "addToCalendar": "Přidat do kalendáře",
+    "addRecipe": "Přidat recept",
+    "noDaysAvailable": "Žádné dostupné dny.",
+    "searchPlaceholder": "Hledat recepty nebo přidat poznámky...",
+    "addNote": "Přidat poznámku: {input}",
+    "randomRecipe": "Náhodný recept",
+    "noRecipesFound": "Žádné recepty nenalezeny.",
+    "failedToLoadRecipes": "Nepodařilo se načíst recepty."
+  }
+}

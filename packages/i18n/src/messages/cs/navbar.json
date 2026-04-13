@@ -1,0 +1,50 @@
+{
+  "userMenu": {
+    "newRecipe": {
+      "title": "Nový recept",
+      "description": "Napište vlastní recept"
+    },
+    "importUrl": {
+      "title": "Importovat z URL",
+      "description": "Vložte odkaz na recept"
+    },
+    "settings": {
+      "title": "Nastavení",
+      "description": "Spravujte svůj účet"
+    },
+    "logout": "Odhlásit se",
+    "version": {
+      "updateAvailable": "k dispozici v{version}"
+    }
+  },
+  "theme": {
+    "title": "Téma",
+    "loading": "Načítání…",
+    "light": "Světlý režim",
+    "dark": "Tmavý režim",
+    "system": "Výchozí systémové"
+  },
+  "nav": {
+    "home": "Recepty",
+    "calendar": "Kalendář",
+    "groceries": "Nákupní seznam"
+  },
+  "mobile": {
+    "searchPlaceholder": "Hledat recepty...",
+    "toggleSearch": "Přepnout vyhledávání",
+    "goBack": "Zpět"
+  },
+  "archiveImporter": {
+    "uploading": "Nahrávání…",
+    "uploadFile": "Nahrát soubor",
+    "dragDrop": "nebo přetáhněte sem",
+    "formats": ".melarecipes (Mela), .paprikarecipes (Paprika), .zip (Mealie/Tandoor)",
+    "uploadingFile": "Nahrávání souboru…",
+    "processing": "Zpracování: {details}",
+    "complete": "Dokončeno: {details}",
+    "imported": "{count} importováno",
+    "skipped": "{count} přeskočeno",
+    "errors": "{count} chyb",
+    "ofTotal": "{current} z {total}"
+  }
+}

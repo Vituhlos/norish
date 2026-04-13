@@ -1,0 +1,78 @@
+{
+  "page": {
+    "title": "Nákupní seznam",
+    "addItem": "Přidat položku",
+    "addItems": "Přidat položky",
+    "viewByStore": "Podle obchodu",
+    "viewByRecipe": "Podle receptu",
+    "viewMode": "Režim zobrazení",
+    "manageStores": "Spravovat obchody",
+    "storeViewOptions": "Možnosti zobrazení obchodu",
+    "groupIngredients": "Seskupit ingredience"
+  },
+  "empty": {
+    "title": "Váš nákupní seznam čeká",
+    "description": "Přidejte položky pomocí tlačítka „Přidat položku" výše.",
+    "manual": "Ruční položky"
+  },
+  "item": {
+    "unnamedItem": "Nepojmenovaná položka",
+    "fromRecipes": "Z {count, plural, one {# receptu} few {# receptů} other {# receptů}}",
+    "items": "{count, plural, one {# položka} few {# položky} other {# položek}}"
+  },
+  "store": {
+    "unsorted": "Nezařazené",
+    "noItems": "V tomto obchodě nejsou žádné položky",
+    "storeActions": "Akce obchodu",
+    "markAllDone": "Označit vše jako hotové",
+    "deleteDone": "Smazat hotové",
+    "done": "{count} hotovo"
+  },
+  "storeManager": {
+    "title": "Spravovat obchody",
+    "addStore": "Přidat obchod",
+    "editStore": "Upravit obchod",
+    "deleteStore": "Smazat obchod",
+    "storeName": "Název obchodu",
+    "storeNamePlaceholder": "např. Supermarket",
+    "storeColor": "Barva",
+    "storeIcon": "Ikona",
+    "confirmDelete": "Opravdu chcete smazat {storeName}?",
+    "deleteWarning": "Položky v tomto obchodě budou přesunuty do Nezařazených.",
+    "noStoresYet": "Zatím žádné obchody",
+    "createStoreHint": "Vytvořte obchod pro organizaci nákupního seznamu",
+    "hasItems": "Tento obchod má {count} položku v nákupním seznamu.",
+    "hasItemsPlural": "Tento obchod má {count} položek v nákupním seznamu.",
+    "whatToDo": "Co chcete s nimi udělat?",
+    "keepItems": "Zachovat položky",
+    "keepItemsDescription": "Přesunout položky do Nezařazených",
+    "deleteItems": "Smazat položky",
+    "deleteItemsDescription": "Odebrat všechny položky v tomto obchodě",
+    "noItems": "Tento obchod nemá žádné položky.",
+    "create": "Vytvořit"
+  },
+  "panel": {
+    "addTitle": "Přidat položku do nákupního seznamu",
+    "editTitle": "Upravit položku nákupního seznamu",
+    "itemName": "Název položky",
+    "itemNamePlaceholder": "např. Mléko, Vejce, Chléb...",
+    "selectStore": "Vybrat obchod",
+    "noStore": "Žádný obchod",
+    "recurrence": "Opakování",
+    "savePreference": "Zapamatovat obchod pro tuto položku",
+    "addAnother": "Přidat další",
+    "addRepeat": "+ Přidat opakování",
+    "storeOptional": "Obchod (volitelné)",
+    "autoDetectFromHistory": "Automaticky zjistit z historie",
+    "autoDetectOrSelect": "Automaticky zjistit nebo vybrat",
+    "placeholder": "např. 1 kg kuřecích prsou",
+    "editPlaceholder": "např. mléko každý týden",
+    "servings": "Porce",
+    "loadingIngredients": "Načítání ingrediencí...",
+    "noIngredients": "Žádné ingredience.",
+    "addSelectedToGroceries": "Přidat do nákupního seznamu",
+    "ingredientsAdded": "Ingredience přidány do nákupního seznamu.",
+    "ingredientsFailed": "Nepodařilo se přidat ingredience do nákupního seznamu.",
+    "addToGroceries": "Přidat do nákupního seznamu"
+  }
+}

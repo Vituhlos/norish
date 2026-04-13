@@ -1,0 +1,223 @@
+{
+  "dashboard": {
+    "title": "Všechny recepty",
+    "searchPlaceholder": "Hledat nebo přidat recept...",
+    "searchRecipesPlaceholder": "Hledat recepty...",
+    "recipeCount": "{count, plural, one {# recept} few {# recepty} other {# receptů}}",
+    "addRecipe": "Přidat recept",
+    "importFromUrl": "URL",
+    "importFromPaste": "Vložení",
+    "importFromImage": "Obrázek",
+    "searchFields": {
+      "title": "Název",
+      "description": "Popis",
+      "ingredients": "Ingredience",
+      "steps": "Kroky",
+      "tags": "Štítky"
+    }
+  },
+  "empty": {
+    "title": "Vaše sbírka receptů čeká",
+    "description": "Vložte URL receptu do vyhledávacího pole výše a sledujte kouzlo.",
+    "noResults": "Žádné recepty nenalezeny",
+    "noResultsHint": "Zkuste upravit nebo vymazat filtry."
+  },
+  "card": {
+    "noImage": "Žádný obrázek",
+    "viewGroceries": "Zobrazit nákupní seznam",
+    "addToCalendar": "Přidat do kalendáře",
+    "deleteRecipe": "Smazat recept"
+  },
+  "detail": {
+    "backToRecipes": "Zpět na recepty",
+    "viewOriginal": "Zobrazit původní recept",
+    "ingredients": "Ingredience",
+    "steps": "Kroky",
+    "notes": "Poznámky",
+    "addToGroceries": "Přidat do nákupního seznamu",
+    "ratingPrompt": "Jak se vám tento recept líbil?",
+    "notFound": "Recept nenalezen",
+    "notFoundMessage": "Tento recept neexistuje nebo nemáte oprávnění ho zobrazit.",
+    "prep": "příprava",
+    "total": "celkem",
+    "planMeal": "Naplánovat jídlo",
+    "recipeActions": "Akce receptu",
+    "instructions": "Pokyny",
+    "cook": "Vaření",
+    "switchToDecimal": "Zobrazit desetinná čísla",
+    "switchToFraction": "Zobrazit zlomky"
+  },
+  "actions": {
+    "plan": "Naplánovat",
+    "groceries": "Nákupní seznam",
+    "edit": "Upravit",
+    "delete": "Smazat",
+    "share": "Sdílet",
+    "visitOriginal": "Zobrazit původní recept",
+    "addToCalendar": "Přidat do kalendáře",
+    "autoTag": "Automatické štítky",
+    "autoTagging": "Generování štítků...",
+    "autoCategorize": "Automatická kategorizace",
+    "detectAllergies": "Detekovat alergie",
+    "detectingAllergies": "Detekování alergií...",
+    "estimateNutrition": "Odhadnout výživové hodnoty",
+    "estimatingNutrition": "Odhadování výživových hodnot...",
+    "screenOn": "Obrazovka zapnutá",
+    "keepScreenOn": "Ponechat obrazovku zapnutou",
+    "actionsLabel": "Akce"
+  },
+  "convert": {
+    "ariaLabel": "Převést systém měření",
+    "toMetric": "Převést na metrické",
+    "toUS": "Převést na americké"
+  },
+  "deleteModal": {
+    "title": "Smazat recept",
+    "confirmMessage": "Opravdu chcete smazat „{recipeName}"?",
+    "warning": "Tuto akci nelze vrátit zpět."
+  },
+  "form": {
+    "createTitle": "Vytvořit recept",
+    "editTitle": "Upravit recept",
+    "createDescription": "Přidejte nový recept do své sbírky",
+    "editDescription": "Aktualizujte podrobnosti receptu",
+    "initializingForm": "Inicializace formuláře...",
+    "photo": "Fotografie",
+    "basicInfo": "Základní informace",
+    "ingredients": "Ingredience",
+    "instructions": "Pokyny",
+    "tags": "Štítky",
+    "nutrition": "Výživové hodnoty",
+    "nutritionPerServing": "(na porci, volitelné)",
+    "details": "Podrobnosti",
+    "additionalInfo": "Doplňující informace",
+    "recipeName": "Název receptu",
+    "recipeNamePlaceholder": "např. Čokoládové sušenky",
+    "description": "Popis",
+    "descriptionPlaceholder": "Stručný popis toho, co tento recept dělá výjimečným...",
+    "notes": "Poznámky",
+    "notesPlaceholder": "Přidejte poznámky k přípravě, úpravy nebo tipy k podávání...",
+    "ingredientsHelp": "Pište ingredience jako „2 šálky mouky" – automaticky rozpoznáme množství a jednotky.",
+    "instructionsHelp": "Pište jasné pokyny krok za krokem. Stisknutím Enter přejdete na další krok.",
+    "tagsHelp": "Pište štítky a klikněte na návrhy pro přidání. Vybrané štítky jsou modré, nové mají přerušovaný okraj.",
+    "tagsAndCategories": "Štítky a kategorie",
+    "categoriesHelp": "Vyberte kategorie jídel pro tento recept.",
+    "category": {
+      "breakfast": "Snídaně",
+      "lunch": "Oběd",
+      "dinner": "Večeře",
+      "snack": "Svačina"
+    },
+    "calories": "Kalorie",
+    "fat": "Tuk (g)",
+    "carbs": "Sacharidy (g)",
+    "protein": "Bílkoviny (g)",
+    "servings": "Porce",
+    "cookingTimes": "Časy vaření",
+    "optional": "(volitelné)",
+    "sourceUrl": "Zdrojová URL",
+    "sourceUrlPlaceholder": "https://priklad.cz/recept",
+    "measurementSystemNote": "Systém měření automaticky detekujeme z ingrediencí, ale můžete ho zde přepsat.",
+    "measurementSystemEditNote": " Poznámka: Tím se aktualizuje popis systému, ale nepřevedou se jednotky. Po uložení použijte akci Převést.",
+    "createRecipe": "Vytvořit recept",
+    "saveChanges": "Uložit změny",
+    "uploading": "Nahrávání...",
+    "clickToUpload": "Klikněte pro nahrání nebo přetáhněte sem",
+    "pasteToUpload": "pro vložení",
+    "imageFormats": "PNG, JPG, WEBP do 5 MB"
+  },
+  "gallery": {
+    "addImage": "Přidat obrázek",
+    "uploading": "Nahrávání...",
+    "uploadFailed": "Nahrání selhalo",
+    "dragToReorder": "Přetažením změňte pořadí",
+    "maxImagesReached": "Maximálně {max} obrázků",
+    "maxVideosReached": "Maximálně {max} videí",
+    "invalidFileType": "Neplatný typ souboru"
+  },
+  "carousel": {
+    "noImageAvailable": "Žádný obrázek",
+    "noMediaAvailable": "Žádná média",
+    "videoPlayer": {
+      "mute": "Ztlumit",
+      "unmute": "Zapnout zvuk",
+      "fullscreen": "Celá obrazovka",
+      "exitFullscreen": "Ukončit celou obrazovku"
+    }
+  },
+  "validation": {
+    "nameRequired": "Název receptu je povinný",
+    "ingredientsRequired": "Alespoň jedna ingredience je povinná",
+    "stepsRequired": "Alespoň jeden krok je povinný",
+    "servingsMin": "Počet porcí musí být alespoň 1"
+  },
+  "nutrition": {
+    "title": "Výživové hodnoty",
+    "calories": "Kalorie",
+    "fat": "Tuk",
+    "carbs": "Sacharidy",
+    "protein": "Bílkoviny",
+    "showingPortions": "Hodnoty pro {count} {count, plural, one {porci} few {porce} other {porcí}}",
+    "noInfo": "Žádné výživové informace nejsou k dispozici",
+    "estimateWithAI": "Odhadnout s AI"
+  },
+  "measurementSystem": {
+    "label": "Systém měření",
+    "detected": "Detekováno: {system}",
+    "metric": "Metrické",
+    "us": "Americké"
+  },
+  "timeInputs": {
+    "prep": "Příprava",
+    "cook": "Vaření",
+    "total": "Celkem"
+  },
+  "stepInput": {
+    "stepPlaceholder": "Krok {number}: Popište krok...",
+    "stepPlaceholderShort": "Krok {number}"
+  },
+  "ingredientInput": {
+    "placeholder": "např. 2 šálky mouky"
+  },
+  "wakeLock": {
+    "keepScreenOn": "Ponechat obrazovku zapnutou",
+    "notSupported": "Funkce ponechání obrazovky aktivní není v tomto prohlížeči podporována",
+    "activeTooltip": "Obrazovka zůstane aktivní při vaření",
+    "inactiveTooltip": "Ponechat obrazovku aktivní při sledování kroků",
+    "ariaLabel": "Ponechat obrazovku aktivní"
+  },
+  "toasts": {
+    "processingBoth": "Zpracování štítků a alergií",
+    "processingTags": "Generování štítků",
+    "processingAllergies": "Detekování alergií",
+    "bothComplete": "Štítky a alergie aktualizovány",
+    "tagsComplete": "Štítky vygenerovány",
+    "allergiesComplete": "Alergie detekovány",
+    "imported": "Recept importován",
+    "converted": "Míry převedeny",
+    "convertedDescription": "Recept převeden na {system} jednotky",
+    "failed": "Operace s receptem selhala",
+    "failedDescription": "Při zpracování receptu se něco pokazilo. Technické podrobnosti najdete v konzoli prohlížeče.",
+    "batchImported": "Recepty importovány",
+    "batchImportedDescription": "{count} receptů importováno z archivu",
+    "view": "Zobrazit",
+    "open": "Otevřít"
+  },
+  "tags": {
+    "panel": {
+      "editTitle": "Upravit štítek",
+      "editPlaceholder": "Zadejte název štítku...",
+      "duplicateTag": "Tento štítek již existuje"
+    }
+  },
+  "cookMode": {
+    "steps": "Kroky",
+    "ingredients": "Ingredience",
+    "servings": "Porce",
+    "serving": "{count, plural, one {# porce} few {# porce} other {# porcí}}",
+    "stepCounter": "{current} / {total}",
+    "swipeSteps": "Přejeďte pro přechod mezi kroky",
+    "swipeIngredients": "Přejeďte doleva pro ingredience",
+    "swipeBackToSteps": "Přejeďte doprava pro kroky"
+  }
+}
