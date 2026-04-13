@@ -73,7 +73,7 @@
   },
   "deleteModal": {
     "title": "Smazat recept",
-    "confirmMessage": "Opravdu chcete smazat „{recipeName}"?",
+    "confirmMessage": "Opravdu chcete smazat \"{recipeName}\"?",
     "warning": "Tuto akci nelze vrátit zpět."
   },
   "form": {
@@ -97,7 +97,7 @@
     "descriptionPlaceholder": "Stručný popis toho, co tento recept dělá výjimečným...",
     "notes": "Poznámky",
     "notesPlaceholder": "Přidejte poznámky k přípravě, úpravy nebo tipy k podávání...",
-    "ingredientsHelp": "Pište ingredience jako „2 šálky mouky" – automaticky rozpoznáme množství a jednotky.",
+    "ingredientsHelp": "Pište ingredience jako \"2 šálky mouky\" – automaticky rozpoznáme množství a jednotky.",
     "instructionsHelp": "Pište jasné pokyny krok za krokem. Stisknutím Enter přejdete na další krok.",
     "tagsHelp": "Pište štítky a klikněte na návrhy pro přidání. Vybrané štítky jsou modré, nové mají přerušovaný okraj.",
     "tagsAndCategories": "Štítky a kategorie",
